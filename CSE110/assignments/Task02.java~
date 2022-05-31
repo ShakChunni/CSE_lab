@@ -1,0 +1,33 @@
+import java.util.Scanner;
+public class Task02{
+  public static void main(String []args){
+    Scanner goat = new Scanner(System.in);
+    System.out.println("Please enter employe type: ");
+    int type = goat.nextInt();
+    System.out.println("Please enter basic salary: ");
+    float sal = goat.nextFloat();
+    if(type == 1){
+      if(sal <= 10000)
+        System.out.println("The gross salary is : " + (sal + (.2 * sal) + (.8 * sal)));
+      
+      if(sal > 10000 && sal <= 20000)
+        System.out.println("The gross salary is : " + (sal + (.25 * sal) + (.9 * sal)));
+      
+      if(sal >= 20000)
+        System.out.println("The gross salary is : " + (sal + (.3 * sal) + (.95 * sal)));
+      
+    }
+    if(type == 2){
+      if(sal <= 10000)
+        System.out.println("The gross salary is : " + (sal + (.15 * sal) + (.75 * sal)));
+      
+      if(sal > 10000 && sal <= 20000)
+        System.out.println("The gross salary is : " + (sal + (.2 * sal) + (.85 * sal)));
+      
+      if(sal >= 20000)
+        System.out.println("The gross salary is : " + (sal + (.25 * sal) + (.9 * sal)));
+        
+      
+    }
+  }
+}

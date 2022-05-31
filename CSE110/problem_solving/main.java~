@@ -1,0 +1,12 @@
+import java.util.*;
+public class main{
+public static void main(String[]args){
+  
+  Scanner goat = new Scanner(System.in);
+  int i = goat.nextInt();
+  if(i!=42){
+    System.out.println(i);}
+  else{
+    break;}
+}
+}
