@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 int a , b , c ;
 float d , e ;
 a = b = 5 ;
@@ -12,4 +13,20 @@ else
 {
  d = e + 6.0 ;
 b = a + c ;
+=======
+int a , b , c ;
+float d , e ;
+a = b = 5 ;
+c = 6 ;
+if ( a > b )
+{
+
+ c = a - b ;
+e = d - 2.0 ;
+}
+else
+{
+ d = e + 6.0 ;
+b = a + c ;
+>>>>>>> c7117b2992bb634d66c16be4a641e5a1741934f1
 }
