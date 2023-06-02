@@ -1,2 +1,3 @@
-# cse_lab
-Lab Codes from College over the years
+# CSE LAB
+
+## Lab Codes from College over the years
